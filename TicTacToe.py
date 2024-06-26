@@ -138,7 +138,7 @@ if counter==9:
         b3['text']=='X' and b6['text']=='X' and b9['text']=='X' or
         b1['text']=='X' and b5['text']=='X' and b9['text']=='X' or
         b3['text']=='X' and b5['text']=='X' and b7['text']=='X'):
-        answer= tk.messagebox.askyesno("Result","Player 1 is winner. Do you want to  resart the game?","Yes","No")
+        answer= tk.messagebox.askyesno("Result","Player 1 is winner. Do you want to  resart the game?")
     elif( b1['text']=='O' and b2['text']=='O' and b3['text']=='O' or
         b4['text']=='O' and b5['text']=='O' and b6['text']=='O' or
         b7['text']=='O' and b8['text']=='O' and b9['text']=='O' or
@@ -147,7 +147,7 @@ if counter==9:
         b3['text']=='O' and b6['text']=='O' and b9['text']=='O' or
         b1['text']=='O' and b5['text']=='O' and b9['text']=='O' or
         b3['text']=='O' and b5['text']=='O' and b7['text']=='O'):
-            answer=tk.messagebox.askyesno("Result","Player 1 is winner. Do you want to  resart the game?","Yes","No")
+            answer=tk.messagebox.askyesno("Result","Player 2 is winner. Do you want to  resart the game?")
     else:
         
         tk.messagebox.showinfo("Result","Match is Draw.")
